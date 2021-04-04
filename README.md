@@ -7,11 +7,13 @@
     , initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    
+  
 </head>
 <body>
     <main>
         <header>
-            <h1> software </h1>
+            <h2 >software </h2>
         </header>
         <article>
             <h2>definição e tipos de software </h2>
