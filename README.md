@@ -7,13 +7,11 @@
     , initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
-    
-  
 </head>
 <body>
     <main>
         <header>
-            <h2 >software </h2>
+            <h1> software </h1>
         </header>
         <article>
             <h2>definição e tipos de software </h2>
@@ -24,7 +22,16 @@
             <p>-software aplicativo</p>
             <p>-software de programação </p>
             <p>-software de sistema</p>
+            <h2>software livre</h2>
+            <p> É todo programa de computador que pode ser modificado, copiado e redistribuído sem a autorização do proprietário. Esse disponibiliza aos usuários e desenvolvedores livre acesso ao código-fonte para que possam fazer alterações.
+            </p>
+
         </article>
     </main>
 </body>
 </html>
+
+
+
+
+
