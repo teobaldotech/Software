@@ -25,11 +25,14 @@
             <h2>software livre</h2>
             <p> É todo programa de computador que pode ser modificado, copiado e redistribuído sem a autorização do proprietário. Esse disponibiliza aos usuários e desenvolvedores livre acesso ao código-fonte para que possam fazer alterações.
             </p>
-
+            <h2>software proprietário</h2>
+            <p> Um programa de computador que tem licença e direitos autorais para uso exclusivo do desenvolvedor.  </p>
         </article>
     </main>
 </body>
 </html>
+
+
 
 
 
