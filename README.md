@@ -27,6 +27,12 @@
             </p>
             <h2>software proprietário</h2>
             <p> Um programa de computador que tem licença e direitos autorais para uso exclusivo do desenvolvedor.  </p>
+             <h2>tipos de software código-aberto</h2>
+            <p>-media player </p>
+            <p>-mozilla</p>
+            <p>-apache openoffice </p>
+            <p>-media player </p>
+        </article>
         </article>
     </main>
 </body>
