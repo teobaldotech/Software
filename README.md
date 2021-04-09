@@ -21,15 +21,13 @@
             <p>tipos de software</p>
             <p>-software aplicativo: é um soft que permite realizar uma tarefa especifica.(microsoft office,adobe photoshop,sql oracle).</p>
             <p>-software de programação: são software usados para criar outros programas.(java script,html,c++,php).</p>
-            <p>-software de sistema:é um software para  fornecer uma plataforma a outro programa.(chrome,firefox). </p>
-            <h2>software livre: é aquele que o usuario tem permissão para alterar o codigo-fonte.(linux,firefox)</h2>
-            <p> É todo programa de computador que pode ser modificado, copiado e redistribuído sem a autorização do proprietário. Esse disponibiliza aos usuários e desenvolvedores livre acesso ao código-fonte para que possam fazer alterações.
-            </p>
-            <h2>software proprietário</h2>
-            <p> Um programa de computador que tem licença e direitos autorais para uso exclusivo do desenvolvedor.  </p>
-             <h2>tipos de software código-aberto</h2>
+            <p>-software de sistema: é um software para  fornecer uma plataforma a outro programa.(chrome,firefox). </p>
+            <p>-software livre: é aquele que o usuario tem permissão para alterar o codigo-fonte.(linux,firefox)</p>
+            <p>-software proprietário: é Um programa de computador que tem licença e direitos autorais para uso exclusivo do desenvolvedor.  </p>
+            <p>shareware: é um programa de computador com liçença temporaria para o uso.</p>
+            <p>freeware: é qualquer software gratuito, mas pode não ter a liçença do codigo-fonte, e ter restrições de sua funcionalidade.</>
+            <h2>tipos de software código-aberto</h2>
             <p>linux</p>
-            <nav>
             <p>-media player </p>
             <p>-mozilla</p>
             <p>-apache openoffice </p>
