@@ -46,3 +46,42 @@ Exemplos: Skype, Zoom, VLC Media Player.
 - VLC Media Player  
 - Mozilla Firefox  
 - Apache OpenOffice  
+
+
+
+🖥️ Sistemas Operacionais (OS)  
+Esses são os softwares de sistema mais conhecidos — eles gerenciam o hardware e fornecem uma base para os aplicativos funcionarem.
+
+- Microsoft Windows – Usado em desktops e notebooks; gerencia arquivos, memória e dispositivos.
+- macOS – Sistema da Apple para computadores Mac.
+- Linux (Ubuntu, Fedora, Debian, etc.) – Muito usado por desenvolvedores e servidores.
+- Android – Sistema operacional para smartphones e tablets.
+- iOS – Sistema da Apple para iPhones e iPads.
+
+---
+
+⚙️ Drivers de Dispositivo  
+Permitem que o sistema operacional se comunique com o hardware.
+
+- Driver de impressora – Faz a ponte entre o computador e a impressora.
+- Driver de placa de vídeo – Controla o desempenho gráfico.
+- Driver de áudio – Gerencia a saída e entrada de som.
+
+---
+
+🔄 Utilitários de Sistema  
+Programas que ajudam a manter, analisar ou otimizar o sistema.
+
+- Antivírus – Como o Windows Defender ou Avast.
+- Gerenciador de disco – Para particionar ou formatar HDs.
+- Ferramentas de backup – Como o Time Machine (macOS) ou Acronis.
+
+---
+
+🌐 Firmware  
+Software embutido em dispositivos físicos, como roteadores, placas-mãe e SSDs.
+
+- BIOS/UEFI – Inicia o computador antes do sistema operacional.
+- Firmware de roteador – Controla a rede doméstica.
+
+---
