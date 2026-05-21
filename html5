@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Guia Definitivo do Software: 57 Capítulos Interativos</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f0f4f8;
+            color: #2d3748;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 40px auto;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border-radius: 16px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 2px dashed #e2e8f0;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.6rem;
+            color: #1a365d;
+            margin: 0 0 10px 0;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.15rem;
+            color: #718096;
+            margin: 0;
+        }
+
+        .instructions {
+            text-align: center;
+            font-style: italic;
+            color: #2b6cb0;
+            background-color: #ebf8ff;
+            padding: 14px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 0.95rem;
+            border-left: 4px solid #3182ce;
+        }
+
+        details {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        details[open] {
+            border-color: #3182ce;
+            box-shadow: 0 4px 15px rgba(49, 130, 206, 0.1);
+            background-color: #ffffff;
+        }
+
+        summary {
+            padding: 18px 20px;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #2d3748;
+            cursor: pointer;
+            user-select: none;
+            outline: none;
+        }
+
+        summary:hover {
+            color: #2b6cb0;
+            background-color: #ebf8ff;
+        }
+
+        details[open] summary {
+            background-color: #ebf8ff;
+            color: #2b6cb0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .content {
+            padding: 25px;
+            background-color: #ffffff;
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        p {
+            margin: 0 0 16px 0;
+            font-size: 1.05rem;
+            color: #2d3748;
+            text-align: justify;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul, ol {
+            margin: 0 0 16px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            font-size: 1.05rem;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+
+        .highlight-box {
+            background-color: #fffaf0;
+            border-left: 4px solid #dd6b20;
+            padding: 18px;
+            border-radius: 0 6px 6px 0;
+            margin: 20px 0;
+            font-style: italic;
+            color: #c05621;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 25px;
+            border-top: 1px solid #e2e8f0;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>O Guia Definitivo do Software</h1>
+        <div class="subtitle">57 Capítulos explicados de forma simples, didática e prática</div>
+    </header>
+
+    <div class="instructions">
+        💡 <strong>Dica de Leitura:</strong> Clique no título de qualquer capítulo abaixo para expandir e ler o conteúdo.
+    </div>
+
+    <main>
+        <!-- Capítulos 1 a 30 anteriores -->
+        <details>
+            <summary>🧠 Capítulo 1 – O que é Software e por que você já usa sem saber</summary>
+            <div class="content"><p>Software é tudo aquilo que faz seu celular, computador ou tablet funcionar. É o “cérebro digital” que executa tarefas, desde abrir o WhatsApp até rodar um jogo.</p></div>
+        </details>
+
+        <details>
+            <summary>🧱 Capítulo 2 – Software vs Hardware: Quem faz o quê?</summary>
+            <div class="content"><p>Hardware é o corpo físico (teclado, tela, componentes); software é a mente que dá as ordens e controla as ações da máquina.</p></div>
+        </details>
+
+        <details>
+            <summary>🧰 Capítulo 3 – Tipos de Software: Aplicativo, Sistema e Programação</summary>
+            <div class="content"><p>Os aplicativos resolvem tarefas do dia a dia, os sistemas gerenciam o hardware e as ferramentas de programação criam novos softwares.</p></div>
+        </details>
+
+        <details>
+            <summary>🔓 Capítulo 4 – Software Livre, Proprietário e Código Aberto</summary>
+            <div class="content"><p>Softwares dividem-se entre os que protegem seu código como segredo comercial e os que disponibilizam a "receita" aberta para o mundo modificar.</p></div>
+        </details>
+
+        <details>
+            <summary>🖥️ Capítulo 5 – Sistemas Operacionais: Windows, macOS, Linux, Android e iOS</summary>
+            <div class="content"><p>Os grandes maestros dos computadores e smartphones, responsáveis por gerenciar a memória, arquivos e a execução de qualquer app.</p></div>
+        </details>
+
+        <details>
+            <summary>⚙️ Capítulo 6 – Drivers, Utilitários e Firmware: Os bastidores do funcionamento</summary>
+            <div class="content"><p>Programas invisíveis que traduzem comandos para componentes específicos ou dão as primeiras instruções de vida a um chip de hardware.</p></div>
+        </details>
+
+        <details>
+            <summary>📱 Capítulo 7 – Aplicativos Mobile vs Desktop: O que muda?</summary>
+            <div class="content"><p>A diferença crucial está no ambiente: telas pequenas com toques versus telas grandes controladas por mouses e teclados físicos.</p></div>
+        </details>
+
+        <details>
+            <summary>🤖 Capítulo 8 – Inteligência Artificial nos Softwares</summary>
+            <div class="content"><p>Algoritmos modernos que analisam padrões de comportamento para sugerir músicas, prever textos ou gerar novos conteúdos dinamicamente.</p></div>
+        </details>
+
+        <details>
+            <summary>🧪 Capítulo 9 – Como os Softwares são Criados: Do zero ao lançamento</summary>
+            <div class="content"><p>Uma jornada que envolve levantamento de problemas, desenho de interfaces, escrita de código técnico, testes severos e monitoramento.</p></div>
+        </details>
+
+        <details>
+            <summary>🚀 Capítulo 10 – O Futuro dos Softwares: Tendências que já estão rolando</summary>
+            <div class="content"><p>Sistemas baseados inteiramente em nuvem, ferramentas visuais onde não se digita código e integrações virtuais tridimensionais.</p></div>
+        </details>
+
+        <details>
+            <summary>🐛 Capítulo 11 – O que são Bugs e por que eles acontecem?</summary>
+            <div class="content"><p>Falhas de lógica humana que fazem o sistema se comportar mal. Podem ser pequenos atrasos visuais ou travamentos catastróficos.</p></div>
+        </details>
+
+        <details>
+            <summary>🔄 Capítulo 12 – Atualizações de Software: Por que nunca devemos ignorá-las?</summary>
+            <div class="content"><p>Manutenções preventivas essenciais para fechar brechas críticas contra ataques, melhorar o desempenho e trazer novas funções.</p></div>
+        </details>
+
+        <details>
+            <summary>☁️ Capítulo 13 – A Nuvem (Cloud): Onde ficam guardados os seus arquivos?</summary>
+            <div class="content"><p>A transferência de processamento e arquivos locais para grandes galpões cheios de servidores conectados à internet global.</p></div>
+        </details>
+
+        <details>
+            <summary>🛡️ Capítulo 14 – Segurança Digital: Como os Softwares nos protegem (e nos vigiam)</summary>
+            <div class="content"><p>Camadas de firewalls e checagens biométricas criadas para nos blindar, dividindo espaço com a constante coleta de dados comerciais.</p></div>
+        </details>
+
+        <details>
+            <summary>🏴‍☠️ Capítulo 15 – Malwares e Vírus: Os Softwares do "Lado Sombrio"</summary>
+            <div class="content"><p>Códigos maliciosos projetados especificamente para sequestrar dados confidenciais, espiar telas ou danificar sistemas operacionais.</p></div>
+        </details>
+
+        <details>
+            <summary>✉️ Capítulo 16 – O que é uma API? O "Correio" que conecta softwares diferentes</summary>
+            <div class="content"><p>Mensageiros estruturados que permitem que o aplicativo de transporte utilize de forma integrada o mapa de outra empresa.</p></div>
+        </details>
+
+        <details>
+            <summary>🗄️ Capítulo 17 – Bancos de Dados: As grandes gavetas organizadas da internet</summary>
+            <div class="content"><p>Estruturas digitais otimizadas para guardar e resgatar informações com segurança milimétrica em frações de segundo.</p></div>
+        </details>
+
+        <details>
+            <summary>🎭 Capítulo 18 – Front-End vs Back-End: A interface charmosa e os motores ocultos</summary>
+            <div class="content"><p>A divisão entre o palco visual interativo com o qual o usuário mexe e os bastidores lógicos de processamento no servidor.</p></div>
+        </details>
+
+        <details>
+            <summary>📐 Capítulo 19 – Algoritmos: A receita de bolo que manda na sua timeline</summary>
+            <div class="content"><p>Regras matemáticas claras e sequenciais encarregadas de decidir quais publicações têm maior chance de reter sua atenção.</p></div>
+        </details>
+
+        <details>
+            <summary>🎨 Capítulo 20 – O que é UX e UI? O Design que evita que você passe raiva</summary>
+            <div class="content"><p>A união entre a beleza estética dos botões e a engenharia de fluxo intuitivo para que a navegação pareça natural.</p></div>
+        </details>
+
+        <details>
+            <summary>📅 Capítulo 21 – Softwares de Produtividade: Organizando o caos do dia a dia</summary>
+            <div class="content"><p>Ecossistemas focados em gerenciar listas, calendários compartilhados e fluxos corporativos complexos em equipas remotas.</p></div>
+        </details>
+
+        <details>
+            <summary>🎮 Capítulo 22 – A Revolução dos Games: Softwares focados em diversão e física</summary>
+            <div class="content"><p>Aplicações interativas complexas que precisam processar leis físicas, iluminação e inteligência de personagens em tempo real.</p></div>
+        </details>
+
+        <details>
+            <summary>💳 Capítulo 23 – SaaS (Software como Serviço): Por que você não compra mais programas?</summary>
+            <div class="content"><p>O modelo econômico moderno de assinatura onde o usuário paga pelo direito temporário de uso sempre atualizado via internet.</p></div>
+        </details>
+
+        <details>
+            <summary>#️⃣ Capítulo 24 – Open Source e Comunidade: O maior trabalho em equipe da humanidade</summary>
+            <div class="content"><p>Redes mundiais de desenvolvedores voluntários que criam ferramentas fundamentais para a infraestrutura digital do planeta.</p></div>
+        </details>
+
+        <details>
+            <summary>🏠 Capítulo 25 – A Internet das Coisas (IoT): Quando a sua geladeira ganha um sistema</summary>
+            <div class="content"><p>Micro-softwares embarcados em eletrodomésticos cotidianos, permitindo automações inteligentes e leitura remota de dados.</p></div>
+        </details>
+
+        <details>
+            <summary>⏳ Capítulo 26 – O que é o Git e GitHub? A máquina do tempo dos programadores</summary>
+            <div class="content"><p>Ferramentas de controle de versão que gerenciam históricos de códigos, impedindo que modificações simultâneas destruam o projeto.</p></div>
+        </details>
+
+        <details>
+            <summary>🔐 Capítulo 27 – Criptografia: Como os softwares escondem seus segredos</summary>
+            <div class="content"><p>Técnicas avançadas que embaralham textos legíveis em códigos indecifráveis para proteger transações financeiras e mensagens privadas.</p></div>
+        </details>
+
+        <details>
+            <summary>🌊 Capítulo 28 – O que é Big Data? Como softwares tratam oceanos de informação</summary>
+            <div class="content"><p>Arquiteturas computacionais gigantescas capazes de minerar, organizar e analisar trilhões de dados gerados a cada segundo.</p></div>
+        </details>
+
+        <details>
+            <summary>🧱 Capítulo 29 – Softwares No-Code e Low-Code: Criando sistemas sem digitar código</summary>
+            <div class="content"><p>Interfaces visuais intuitivas que democratizam o desenvolvimento, convertendo arrastar de caixas em códigos funcionais por trás.</p></div>
+        </details>
+
+        <details>
+            <summary>🍃 Capítulo 30 – O Impacto Ecológico dos Softwares: Código também gasta energia?</summary>
+            <div class="content"><p>A busca por códigos eficientes que exijam menos esforço de servidores, ajudando a diminuir a pegada de carbono mundial.</p></div>
+        </details>
+
+        <!-- NOVOS CAPÍTULOS (31 a 57) -->
+        <details>
+            <summary>🐳 Capítulo 31 – Containers e Docker: Isolando softwares para evitar conflitos</summary>
+            <div class="content">
+                <p>Imagine empacotar um software com absolutamente tudo o que ele precisa para funcionar dentro de uma "caixa" isolada. Isso é um container. O <strong>Docker</strong> resolve o clássico problema do <em>"na minha máquina funciona, mas no servidor não"</em>, garantindo estabilidade absoluta.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🧭 Capítulo 32 – Microsserviços vs Monolitos: Dividir para conquistar</summary>
+            <div class="content">
+                <p>Um software <strong>Monólito</strong> é um bloco único de código. Se uma parte falha, tudo pode cair. Já a arquitetura de <strong>Microsserviços</strong> divide o sistema em pequenos programas independentes que conversam entre si. Se o sistema de pagamentos cair, o catálogo de produtos continua no ar.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🔄 Capítulo 33 – CI/CD: Automatizando testes e lançamentos sem parar</summary>
+            <div class="content">
+                <p>CI/CD (Integração Contínua e Entrega Contínua) consiste em esteiras automatizadas. Sempre que o programador altera o código, robôs testam e publicam a modificação na internet automaticamente, eliminando tarefas manuais arriscadas.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>⛓️ Capítulo 34 – Blockchain: O software por trás da descentralização</summary>
+            <div class="content">
+                <p>Mais do que criptomoedas, o Blockchain é um tipo de software de registro distribuído. Ele grava informações em blocos matematicamente encadeados e espalhados por milhares de computadores, tornando os dados imutáveis e impossíveis de fraudar.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>📈 Capítulo 35 – Testes Automatizados: Código que testa código</summary>
+            <div class="content">
+                <p>Desenvolvedores profissionais não testam sistemas clicando em botões manualmente. Eles escrevem pequenos programas cuja única função é testar o software principal em busca de falhas sob condições extremas de uso.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🕵️ Capítulo 36 – Engenharia Reversa: Desmontando softwares para ver como funcionam</summary>
+            <div class="content">
+                <p>Engenharia reversa é a arte de pegar um programa pronto, fechado, e desmontá-lo em partes menores para decifrar sua lógica interna. É muito utilizada por analistas de segurança para descobrir como novos vírus operam.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>👓 Capítulo 37 – Compiladores e Interpretadores: Traduzindo código para a máquina</summary>
+            <div class="content">
+                <p>Computadores só entendem eletricidade e binário. <strong>Compiladores</strong> traduzem o código humano inteiro em um arquivo binário antes de rodar. <strong>Interpretadores</strong> traduzem o código linha por linha, em tempo real, enquanto o app é executado.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>📊 Capítulo 38 – Cache: O atalho de memória que acelera tudo</summary>
+            <div class="content">
+                <p>O cache guarda cópias temporárias de dados muito usados em locais de acesso ultra rápido. Em vez de o software ir buscar sua foto de perfil no banco de dados toda hora, ele puxa do cache local, poupando tempo e internet.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>📶 Capítulo 39 – Protocolos de Rede (HTTP, FTP, TCP): As regras de trânsito da web</summary>
+            <div class="content">
+                <p>Protocolos são conjuntos de regras padronizadas que permitem a comunicação na internet. O HTTP dita como sites são enviados, o FTP transfere arquivos e o TCP garante que nenhum pedaço de informação se perca no caminho.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>⚡ Capítulo 40 – Computação Dinâmica e Edge Computing: Processamento na ponta</summary>
+            <div class="content">
+                <p>Em vez de enviar todos os dados de um sensor para um servidor central distante na nuvem, o <em>Edge Computing</em> processa as informações no próprio dispositivo local (como câmeras inteligentes). Isso reduz o atraso de resposta a zero.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🧱 Capítulo 41 – Frameworks e Bibliotecas: Os blocos de Lego da programação</summary>
+            <div class="content">
+                <p>Programadores não reinventam a roda. <strong>Bibliotecas</strong> são coleções de códigos prontos para funções específicas (ex: calcular datas). <strong>Frameworks</strong> são estruturas completas que ditam como arquitetar todo o projeto.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🛑 Capítulo 42 – Refatoração de Código: Faxina interna sem mudar nada por fora</summary>
+            <div class="content">
+                <p>Refatorar significa reescrever partes do código interno de um software para torná-lo mais limpo, rápido e organizado, sem alterar as funções visuais que o usuário final utiliza na tela.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>👥 Capítulo 43 – Metodologias Ágeis (Scrum e Kanban) no Desenvolvimento</summary>
+            <div class="content">
+                <p>Softwares modernos mudam rápido demais para planejamentos rígidos de anos. Metodologias ágeis organizam equipas de desenvolvimento em ciclos curtos de entrega (Sprints), focando em prioridades flexíveis e melhoria contínua.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>💾 Capítulo 44 – Alocação de Memória e Garbage Collection: Limpeza silenciosa</summary>
+            <div class="content">
+                <p>Quando um software abre uma aba, ele ocupa espaço na memória RAM do aparelho. O <strong>Garbage Collector</strong> (Coletor de Lixo) é um mecanismo automático que varre o sistema apagando dados que não estão mais em uso para o celular não travar.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🎭 Capítulo 45 – Virtualização e Máquinas Virtuais: Um PC dentro do outro</summary>
+            <div class="content">
+                <p>A virtualização permite criar computadores simulados por software dentro de um computador físico real. Isso possibilita, por exemplo, rodar o sistema Linux dentro de uma janela no Windows sem precisar de duas máquinas físicas.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🗺️ Capítulo 46 – Internacionalização (i18n): Preparando o software para o mundo</summary>
+            <div class="content">
+                <p>Um software global precisa se adaptar dinamicamente. A internacionalização isola textos, formatos de data, moedas e fusos horários do código principal, facilitando a tradução instantânea do app para dezenas de idiomas.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>👁️ Capítulo 47 – Acessibilidade Digital (a11y): Software para todos</summary>
+            <div class="content">
+                <p>Softwares inclusivos são projetados para permitir que pessoas com deficiências visuais, motoras ou auditivas naveguem perfeitamente. Envolve suporte a leitores de tela, contrastes ajustáveis e navegação completa usando apenas o teclado.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🏭 Capítulo 48 – Logs de Sistema: A caixa preta dos softwares</summary>
+            <div class="content">
+                <p>Logs são diários de bordo textuais automatizados. Cada ação, erro ou tentativa de login fica registrada cronologicamente. Quando ocorre um erro grave, os engenheiros consultam os logs para descobrir o culpado.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>⚖️ Capítulo 49 – Licenciamento de Software: Regras de uso e direitos autorais</summary>
+            <div class="content">
+                <p>Mesmo códigos abertos possuem regras. Licenças como MIT permitem uso comercial livre, enquanto licenças como GPL exigem que qualquer modificação do software também tenha seu código aberto para a comunidade.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>📈 Capítulo 50 – Escalabilidade: Aguentando milhões de acessos simultâneos</summary>
+            <div class="content">
+                <p>Um software escalável consegue lidar com o crescimento repentino de usuários sem perder performance. Isso envolve balanceamento de carga inteligente e distribuição automática de tráfego entre múltiplos servidores na nuvem.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>📦 Capítulo 51 – Gerenciadores de Pacotes: O download inteligente para desenvolvedores</summary>
+            <div class="content">
+                <p>Ferramentas como NPM ou NuGet gerenciam dependências de código. Em vez de baixar códigos manualmente na internet, o desenvolvedor usa o gerenciador para instalar, atualizar e remover ferramentas externas com uma linha de comando.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🛠️ Capítulo 52 – IDEs (Ambientes de Desenvolvimento): O canivete suíço do dev</summary>
+            <div class="content">
+                <p>Programadores raramente usam blocos de notas simples. Eles utilizam IDEs (como VS Code ou Visual Studio), que oferecem corretores automáticos de erros, autocompletar inteligente e ferramentas embutidas para rodar e testar o código.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🕸️ Capítulo 53 – Web Scraping: Softwares que lêem e mineram sites</summary>
+            <div class="content">
+                <p>Softwares de raspagem de dados (Scrapers) entram em páginas web simulando navegação humana, leem tabelas, preços e estruturas inteiras, extraindo essas informações cruas de forma automatizada para análise comercial.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🕹️ Capítulo 54 – Sistemas Embarcados: Código dentro de chips industriais</summary>
+            <div class="content">
+                <p>Sistemas embarcados são softwares hiper-especializados gravados direto em microcontroladores de hardware. Estão em injeções eletrônicas de carros, marcapassos e painéis de controle industriais onde a falha de um milissegundo é crítica.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🎛️ Capítulo 55 – Variáveis de Ambiente: Guardando segredos fora do código</summary>
+            <div class="content">
+                <p>Senhas de bancos de dados e chaves privadas nunca devem ficar escritas no meio do código-fonte (para evitar vazamentos no GitHub). Elas ficam salvas em <em>Variáveis de Ambiente</em> externas, lidas pelo software apenas no momento de execução.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🧬 Capítulo 56 – Computação Quântica e Novos Paradigmas de Software</summary>
+            <div class="content">
+                <p>A computação clássica opera em bits (0 ou 1). A computação quântica utiliza qubits, capazes de assumir superposições complexas. Os softwares do futuro precisarão de lógicas matemáticas totalmente reformuladas para aproveitar este poder bruto.</p>
+            </div>
+        </details>
+
+        <details>
+            <summary>🧹 Capítulo 57 – Código Limpo (Clean Code): A arte da legibilidade técnica</summary>
+            <div class="content">
+                <p>Computadores entendem qualquer código mal escrito desde que esteja correto semanticamente. <strong>Clean Code</strong> é a prática de escrever códigos pensando em humanos: nomes de funções claros e estruturas organizadas que facilitam reparos futuros.</p>
+            </div>
+        </details>
+    </main>
+
+    <footer>
+        <p>© 2026 O Guia Definitivo do Software. Conteúdo estruturado para fins educacionais.</p>
+    </footer>
+</div>
+
+</body>
+</html>
